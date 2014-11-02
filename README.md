@@ -16,6 +16,7 @@ Support of HC
 Dynamic Mission Sites  
 SpyGlass  
 Using more Arma3 Specfic code + no mf_compile function  
+No Store Boxs to sell items, new Shop Dialogs etc  
 
 #### Why the need to another Wasteland mission ??  
 None really, i am just bored...  
