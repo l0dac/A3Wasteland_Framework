@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Waste_Framework">
+	<Package name="LoadingScreen">
+		<Key ID="STR_Server_Wait">
+			<Original>Waiting for Server ...</Original>
+			<English>Waiting for Server ...</English>
+			<German>Warten auf Server ...</German>
+			<French>En attente de serveur ...</French>
+			<Russian>Ожидание сервера ...</Russian>
+		</Key>
+		<Key ID="STR_Server_Error">
+			<Original>Server encountered Error, Connect Admin ...</Original>
+			<English>Server encountered Error, Connect Admin ...</English>
+			<German>Server hat Fehler, Connect Admin ...</German>
+			<French>Serveur a rencontré une erreur, Connect admin ...</French>
+			<Russian>Сервер столкнулся Ошибка, Connect Админ ...</Russian>
+		</Key>
+		<Key ID="STR_Loading">
+			<Original>Loading ...</Original>
+			<English>Loading ...</English>
+			<German>Laden ...</German>
+			<French>Chargement en cours ...</French>
+			<Russian>Загрузка ...</Russian>
+		</Key>
+	</Package>
+
+	<Package name="General">
+		<Key ID="STR_WASTE_TeamWEST">
+			<Original>BLUFOR ...</Original>
+			<English>BLUFOR</English>
+		</Key>
+		<Key ID="STR_WASTE_TeamEAST">
+			<Original>OPFOR ...</Original>
+			<English>OPFOR</English>
+		</Key>
+		<Key ID="STR_WASTE_TeamGUER">
+			<Original>Independent ...</Original>
+			<English>Independent</English>
+		</Key>
+	</Package>
+
+	<Package name="WelcomeMessage">
+		<Key ID="STR_WASTE_WelcomeToWasteland">
+			<English>&lt;t color='#FF8000' size='2.5' &gt;A3Waste Framework &lt;/t&gt;</English>
+		</Key>
+		<Key ID="STR_WASTE_YouAreInTeam">
+			<English>&lt;t color='#FFFFFF' size='1.5' &gt;* You are in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* Attacking or stealing from other %4 players is &lt;t color="#FF1111"&gt;FORBIDDEN&lt;/t&gt;&lt;br/&gt;* &lt;t color="#FF1111"&gt;NO VOICE IN GLOBAL&lt;/t&gt;&lt;br/&gt;* You can find the Server Rules in the map menu.&lt;br/&gt;* Server restarts are done at the admin's discretion.&lt;br/&gt;* You will be locked to your team after 3 minutes.&lt;/t&gt;</English>
+		</Key>
+		<Key ID="STR_WASTE_YouAreInFFA">
+			<English>&lt;t color='#FFFFFF' size='1.5' &gt;* You are in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* You are &lt;t color="#00aa00"&gt;FREE TO ATTACK ANYONE&lt;/t&gt;&lt;br/&gt;* &lt;t color="#FF1111"&gt;NO VOICE IN GLOBAL&lt;/t&gt;&lt;br/&gt;* You can find the Server Rules in the map menu.&lt;br/&gt;* Server restarts are done at the admin's discretion.&lt;/t&gt;</English>
+		</Key>
+		<Key ID="STR_WASTE_MapMoreInfo">
+			<English>&lt;t color='#FFFFFF' size='1.5' &gt;This is a DEV Build, no anti-hacks, code is broken. &lt;br/&gt;This is a DEV Build, no anti-hacks, code is broken.&lt;br/&gt;This is a DEV Build, no anti-hacks, code is broken.&lt;br/&gt;&lt;br/&gt;&lt;/t&gt;&lt;t size='1.3'&gt;&lt;/t&gt;&lt;br/&gt;</English>
+		</Key>
+	</Package>
+
+
+	<Package name="R3F">
+		<Key ID="STR_R3F_LOG_action_heliporter">
+			<Original>Lift the object</Original>
+			<English>Lift the object</English>
+			<German>Heben Sie das Objekt</German>
+			<French>Heliporter l'objet</French>
+			<Russian>Поднимите объект</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_heliporter_fait">
+			<Original>Object ""%1"" attached.</Original>
+			<English>Object ""%1"" attached.</English>
+			<German>Objekt ""%1"" angebracht.</German>
+			<French>Objet ""%1"" accroché.</French>
+			<Russian>Объект ""%1"" прилагается.</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_heliport_larguer">
+			<Original>Drop the object</Original>
+			<English>Drop the object</English>
+			<German>Drop das Objekt</German>
+			<French>Larguer l'objet</French>
+			<Russian>Отбросьте объект</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_heliport_larguer_fait">
+			<Original>Object ""%1"" dropped.</Original>
+			<English>Object ""%1"" dropped.</English>
+			<German>Objekt ""%1"" ablegen.</German>
+			<French>Objet ""%1"" largué.</French>
+			<Russian>Объект ""%1"" упал.</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_deplacer_objet">
+			<Original>Take ""%1""</Original>
+			<English>Take ""%1""</English>
+			<German>nehme ""% 1 ""</German>
+			<French>Prendre ""%1""</French>
+			<Russian>Возьмите ""%1 ""</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_relacher_objet">
+			<Original>Release ""%1""</Original>
+			<English>Release ""%1""</English>
+			<German>""%1"" Loslassen</German>
+			<French>Relâcher ""%1""</French>
+			<Russian>Выпуск ""%1""</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_aligner_pente">
+			<Original>Adjust to the slope</Original>
+			<English>Adjust to the slope</English>
+			<German>an die Schräge anpassen</German>
+			<French>Ajuster à la pente</French>
+			<Russian>Регулируются по склону</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_aligner_sol">
+			<Original>Adjust to the ground</Original>
+			<English>Adjust to the ground</English>
+			<German>an den Boden anpassen</German>
+			<French>Ajuster au sol</French>
+			<Russian>Отрегулируйте на землю</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_aligner_horizon">
+			<Original>Adjust horizontally</Original>
+			<English>Adjust horizontally</English>
+			<German>horizontal anpassen</German>
+			<French>Ajuster de niveau</French>
+			<Russian>Отрегулируйте горизонтально</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_tourner">
+			<Original>Turn left/right (X / C keys)</Original>
+			<English>Turn left/right (X / C keys)</English>
+			<German>links / rechts (X / C Tasten)</German>
+			<French>Pivoter (touches X / C)</French>
+			<Russian>Поверните влево / вправо (х / с ключи)</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_rapprocher">
+			<Original>Closer/further (F / R keys)</Original>
+			<English>Closer/further (F / R keys)</English>
+			<German>Näher/ferner (F / R Tasten)</German>
+			<French>Rapprocher (touches F / R)</French>
+			<Russian>Ближе / дальше (клавиши F / R)</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_ne_pas_monter_dans_vehicule">
+			<Original>You can't get in a vehicle while you're carrying this object !</Original>
+			<English>You can't get in a vehicle while you're carrying this object !</English>
+			<German>Sie können nicht in ein Fahrzeug einsteigen, während Sie dieses Objekt tragen!</German>
+			<French>Vous ne pouvez pas monter dans un véhicule tant que vous déplacez cet objet !</French>
+			<Russian>Вы не можете получить в автомобиле в то время как вы носите этот объект!</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_charger_deplace">
+			<Original>Load in the vehicle</Original>
+			<English>Load in the vehicle</English>
+			<German>Ins Fahrzeug lagen</German>
+			<French>Charger dans le véhicule</French>
+			<Russian>Нагрузка в автомобиле</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_selectionner_objet_charge">
+			<Original>Load ""%1"" in...</Original>
+			<English>Load ""%1"" in...</English>
+			<German>Lade ""%1"" in ...</German>
+			<French>Charger ""%1"" dans...</French>
+			<Russian>Load ""%1"" в ...</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_charger_selection">
+			<Original>... load in ""%1""</Original>
+			<English>... load in ""%1""</English>
+			<German>... Lade in ... ""%1""</German>
+			<French>... charger dans ""%1""</French>
+			<Russian>... Груз в ""%1""</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_selectionner_objet_fait">
+			<Original>Now select the destination for ""%1""...</Original>
+			<English>Now select the destination for ""%1""...</English>
+			<German>Wählen Sie das Ziel für ""%1"" aus ...</German>
+			<French>Sélectionnez maintenant la destination pour ""%1""...</French>
+			<Russian>Теперь выберите пункт назначения для ""%1"" ...</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_charger_en_cours">
+			<Original>Loading in progress...</Original>
+			<English>Loading in progress...</English>
+			<German>Ladevorgang ...</German>
+			<French>Chargement en cours...</French>
+			<Russian>Идет загрузка ...</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_charger_fait">
+			<Original>The object ""%1"" has been loaded in ""%2"".</Original>
+			<English>The object ""%1"" has been loaded in ""%2"".</English>
+			<German>Das Objekt ""%1"" wurde in ""%2"" eingeladen.</German>
+			<French>L'objet ""%1"" a été chargé dans ""%2"".</French>
+			<Russian>Объект ""%1"" была загружена в ""%2"".</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_charger_pas_assez_de_place">
+			<Original>There is not enough space for this object in this vehicle !</Original>
+			<English>There is not enough space for this object in this vehicle !</English>
+			<German>Im Fahrzeug gibt es nicht genug platz für das!</German>
+			<French>Il n'y pas assez de place pour cet objet dans ce véhicule !</French>
+			<Russian>Существует не хватает места для этого объекта в этом автомобиле!</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_selectionner_objet_remorque">
+			<Original>Tow ""%1"" to...</Original>
+			<English>Tow ""%1"" to...</English>
+			<German>Tow ""%1"", ...</German>
+			<French>Remorquer ""%1"" à...</French>
+			<Russian>Эвакуатор ""%1"", чтобы ...</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_remorquer_selection">
+			<Original>... tow to ""%1""</Original>
+			<English>... tow to ""%1""</English>
+			<German>... tow to ""%1""</German>
+			<French>... remorquer à ""%1""</French>
+			<Russian>... Буксира ""%1""</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_remorquer_deplace">
+			<Original>Tow the object</Original>
+			<English>Tow the object</English>
+			<German>Tow das Objekt</German>
+			<French>Remorquer l'objet</French>
+			<Russian>Отбуксировать объект</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_detacher">
+			<Original>Untow the object</Original>
+			<English>Untow the object</English>
+			<German>Untow Objekt</German>
+			<French>Décrocher l'objet</French>
+			<Russian>Untow объекта</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_detacher_fait">
+			<Original>Object untowed.</Original>
+			<English>Object untowed.</English>
+			<German>Objekt untowed.</German>
+			<French>Objet décroché.</French>
+			<Russian>Объект untowed.</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_detacher_impossible_pour_ce_vehicule">
+			<Original>Only the pilot can detach this object.</Original>
+			<English>Only the pilot can detach this object.</English>
+			<German>Nur der Pilot kann das.</German>
+			<French>Seul le pilote peut décrocher cet objet.</French>
+			<Russian>Только пилот может отделить этот объект.</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_contenu_vehicule">
+			<Original>View the vehicle content</Original>
+			<English>View the vehicle content</English>
+			<German>Fahrzeug Inhalt ansehen</German>
+			<French>Voir le contenu du véhicule</French>
+			<Russian>Просмотр содержимого автомобиля</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_decharger_en_cours">
+			<Original>Unloading in progress...</Original>
+			<English>Unloading in progress...</English>
+			<German>Entladen läuft ...</German>
+			<French>Déchargement en cours...</French>
+			<Russian>Разгрузка в ходе ...</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_decharger_fait">
+			<Original>The object ""%1"" has been unloaded from the vehicle.</Original>
+			<English>The object ""%1"" has been unloaded from the vehicle.</English>
+			<German>Das Objekt ""%1"" wurde aus dem Fahrzeug ausgeladen.</German>
+			<French>L'objet ""%1"" a été déchargé du véhicule.</French>
+			<Russian>Объект ""%1"" была выгружена из транспортного средства.</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_decharger_deja_fait">
+			<Original>The object has already been unloaded !</Original>
+			<English>The object has already been unloaded !</English>
+			<German>Das Objekt wurde bereits entladen!</German>
+			<French>L'objet a déjà été déchargé !</French>
+			<Russian>Объект уже пустые!</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_decharger_deplacable_exceptionnel">
+			<Original>Warning : once released, this object will no more be movable manually.</Original>
+			<English>Warning : once released, this object will no more be movable manually.</English>
+			<German>Achtung: Nach der Freigabe dieses Objekt ist nicht mehr manuell beweglich.</German>
+			<French>Attention : une fois relâché, cet objet ne pourra plus être déplacé manuellement.</French>
+			<Russian>Внимание: после освобождения, этот объект будет не более быть подвижным вручную.</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_ouvrir_usine">
+			<Original>Open the creation factory</Original>
+			<English>Open the creation factory</English>
+			<German>Fabrik öffnen</German>
+			<French>Ouvrir l'usine de création</French>
+			<Russian>Откройте создания завод</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_creer_en_cours">
+			<Original>Creation in progress...</Original>
+			<English>Creation in progress...</English>
+			<German>Work in progress ...</German>
+			<French>Création en cours...</French>
+			<Russian>Создание в ходе ...</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_creer_fait">
+			<Original>The object ""%1"" has been created.</Original>
+			<English>The object ""%1"" has been created.</English>
+			<German>Das Objekt ""%1"" wurde erstellt.</German>
+			<French>L'objet ""%1"" a été créé.</French>
+			<Russian>Объект ""%1"" была создана.</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_action_creer_pas_assez_credits">
+			<Original>The factory has not enough credits to create this object.</Original>
+			<English>The factory has not enough credits to create this object.</English>
+			<German>Die Fabrik hat nicht genug guthaben, um dieses Objekt zu erstellen.</German>
+			<French>L'usine ne dispose pas assez de crédits pour créer cet objet.</French>
+			<Russian>Завод имеет не достаточное количество баллов для создания этого объекта.</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_mutex_action_en_cours">
+			<Original>The current operation isn't finished !</Original>
+			<English>The current operation isn't finished !</English>
+			<German>Der aktuelle Vorgang ist noch nicht fertig!</German>
+			<French>L'opération en cours n'est pas terminée !</French>
+			<Russian>Текущая операция не закончена!</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_joueur_dans_objet">
+			<Original>There is a player in the object ""%1"" !</Original>
+			<English>There is a player in the object ""%1"" !</English>
+			<German>Es ist ein Spieler im Objekt ""%1""!</German>
+			<French>Un joueur se trouve dans l'objet ""%1"" !</French>
+			<Russian>Существует игрок в объекте ""%1""!</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_objet_en_cours_transport">
+			<Original>The object ""%1"" is already in transit !</Original>
+			<English>The object ""%1"" is already in transit !</English>
+			<German>Das Objekt ""%1"" ist bereits auf dem Weg!</German>
+			<French>L'objet ""%1"" est déjà en cours de transport !</French>
+			<Russian>Объект ""%1"" уже в пути!</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_objet_remorque_en_cours">
+			<Original>Impossible because the object ""%1"" is towing another object !</Original>
+			<English>Impossible because the object ""%1"" is towing another object !</English>
+			<German>Nicht möglich, weil das Objekt ""%1"" bereits ein anders Object abschleppt!</German>
+			<French>Impossible car l'objet ""%1"" remorque un autre objet !</French>
+			<Russian>Невозможно потому, что объект ""% 1 "" буксирует другой объект!</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_trop_loin">
+			<Original>Impossible because the object ""%1"" is too far !</Original>
+			<English>Impossible because the object ""%1"" is too far !</English>
+			<German>Nicht möglich, weil das Objekt ""%1"" zu weit weg ist!</German>
+			<French>Impossible car l'objet ""%1"" est trop loin !</French>
+			<Russian>Невозможно потому, что объект ""%1"" находится слишком далеко!</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_dlg_CV_titre">
+			<Original>Content of vehicle</Original>
+			<English>Content of vehicle</English>
+			<German>Inhalt des Fahrzeug</German>
+			<French>Contenu du véhicule</French>
+			<Russian>Содержание автомобиля</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_dlg_CV_capacite_vehicule">
+			<Original>Loading : %1/%2</Original>
+			<English>Loading : %1/%2</English>
+			<German>Laden: %1/%2</German>
+			<French>Chargement : %1/%2</French>
+			<Russian>Загрузка : %1/%2</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_dlg_CV_btn_decharger">
+			<Original>UNLOAD</Original>
+			<English>UNLOAD</English>
+			<German>ENTLADEN</German>
+			<French>DECHARGER</French>
+			<Russian>выгрузить</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_dlg_CV_btn_fermer">
+			<Original>CANCEL</Original>
+			<English>CANCEL</English>
+			<German>ABBRECHEN</German>
+			<French>ANNULER</French>
+			<Russian>ОТМЕНА</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_dlg_LO_titre">
+			<Original>Creation factory</Original>
+			<English>Creation factory</English>
+			<German>Fabrik benutzen</German>
+			<French>Usine de création</French>
+			<Russian>завод Создание</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_dlg_LO_credits_restants">
+			<Original>Remaining credits : %1</Original>
+			<English>Remaining credits : %1</English>
+			<German>Restguthaben: %1</German>
+			<French>Crédits restants : %1</French>
+			<Russian>Остальные кредиты: %1</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_dlg_LO_btn_creer">
+			<Original>CREATE</Original>
+			<English>CREATE</English>
+			<German>ERSCHAFFEN</German>
+			<French>CREER</French>
+			<Russian>СОЗДАТЬ</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_dlg_LO_btn_fermer">
+			<Original>CANCEL</Original>
+			<English>CANCEL</English>
+			<German>ABBRECHEN</German>
+			<French>ANNULER</French>
+			<Russian>ОТМЕНА</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_nom_fonctionnalite_proprietes">
+			<Original>Properties</Original>
+			<English>Properties</English>
+			<German>Eigenschaften</German>
+			<French>Propriétés</French>
+			<Russian>Свойства</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_nom_fonctionnalite_side">
+			<Original>Side</Original>
+			<English>Side</English>
+			<German>Seite</German>
+			<French>Camp</French>
+			<Russian>Боковой</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_nom_fonctionnalite_places">
+			<Original>Seating</Original>
+			<English>Seating</English>
+			<German>Sitzplätze</German>
+			<French>Places assises</French>
+			<Russian>Гостиный</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_nom_fonctionnalite_passif">
+			<Original>It can be :</Original>
+			<English>It can be :</English>
+			<German>Es kann sein :</German>
+			<French>Il peut être :</French>
+			<Russian>Это может быть :</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_nom_fonctionnalite_passif_deplace">
+			<Original>Moved by player</Original>
+			<English>Moved by player</English>
+			<German>Durch Spieler bewegt</German>
+			<French>Déplacé par le joueur</French>
+			<Russian>Движимый игрока</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_nom_fonctionnalite_passif_heliporte">
+			<Original>Lifted</Original>
+			<English>Lifted</English>
+			<German>Lifted</German>
+			<French>Héliporté</French>
+			<Russian>Отменено</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_nom_fonctionnalite_passif_remorque">
+			<Original>Towed</Original>
+			<English>Towed</English>
+			<German>Towed</German>
+			<French>Remorqué</French>
+			<Russian>Полевая</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_nom_fonctionnalite_passif_transporte">
+			<Original>Transported</Original>
+			<English>Transported</English>
+			<German>Transportiert</German>
+			<French>Transporté</French>
+			<Russian>Перевезено</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_nom_fonctionnalite_passif_transporte_capacite">
+			<Original>load cost %1</Original>
+			<English>load cost %1</English>
+			<German>Last kosten %1</German>
+			<French>coût charg. %1</French>
+			<Russian>Груз Цена %1</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_nom_fonctionnalite_actif">
+			<Original>It can :</Original>
+			<English>It can :</English>
+			<German>Es kann :</German>
+			<French>Il peut :</French>
+			<Russian>Это возможно:</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_nom_fonctionnalite_actif_heliporte">
+			<Original>Lift</Original>
+			<English>Lift</English>
+			<German>Aufzug</German>
+			<French>Héliporter</French>
+			<Russian>лифт</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_nom_fonctionnalite_actif_remorque">
+			<Original>Tow</Original>
+			<English>Tow</English>
+			<German>Werg</German>
+			<French>Remorquer</French>
+			<Russian>Буксировка</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_nom_fonctionnalite_actif_transporte">
+			<Original>Transport</Original>
+			<English>Transport</English>
+			<German>Transport</German>
+			<French>Transporter</French>
+			<Russian>Транспорт</Russian>
+		</Key>
+		<Key ID="STR_R3F_LOG_nom_fonctionnalite_actif_transporte_capacite">
+			<Original>max load %1</Original>
+			<English>max load %1</English>
+			<German>max load %1</German>
+			<French>charg. max %1</French>
+			<Russian>максимальная нагрузка% 1</Russian>
+		</Key>
+	</Package>
+</Project>

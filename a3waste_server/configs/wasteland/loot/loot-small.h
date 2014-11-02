@@ -1,0 +1,209 @@
+trash[] = {
+	{"Land_FMradio_F",0.5}
+	,{"Land_HandyCam_F",0.5}
+	,{"Land_Laptop_F",0.2}
+	,{"Land_MobilePhone_smart_F",0.2}
+	,{"ItemRadio",0.1}
+	,{"ItemGPS",0.05}
+};
+civilian[] = {
+	{"Land_BottlePlastic_V1_F",0.07}
+	,{"Land_Can_Rusty_F",0.08}
+	,{"Land_Can_V1_F",0.08}
+	,{"Land_Can_V2_F",0.09}
+	,{"Land_Can_V3_F",0.09}
+	,{"Land_TacticalBacon_F",0.05}
+	,{"Land_CanisterFuel_F",0.05}
+	,{"Land_CanisterOil_F",0.05}
+	,{"Land_CanisterPlastic_F",0.05}
+	,{"Land_Battery_F",0.07}
+	,{"Land_BakedBeans_F",0.05}
+	,{"Land_BottlePlastic_V2_F",0.05}
+	,{"Land_Canteen_F",0.05}
+	,{"Land_CerealsBox_F",0.06}
+	,{"Land_Antibiotic_F",0.06}
+	,{"Land_Bandage_F",0.01}
+	,{"Land_BloodBag_F",0.01}
+};
+office2[] = {
+	{"Land_BottlePlastic_V1_F",0.07}
+	,{"Land_Can_Rusty_F",0.08}
+	,{"Land_Can_V1_F",0.08}
+	,{"Land_Can_V2_F",0.09}
+	,{"Land_Can_V3_F",0.09}
+	,{"Land_TacticalBacon_F",0.05}
+	,{"Land_CanisterFuel_F",0.05}
+	,{"Land_CanisterOil_F",0.05}
+	,{"Land_CanisterPlastic_F",0.05}
+	,{"Land_Battery_F",0.07}
+	,{"Land_BakedBeans_F",0.05}
+	,{"Land_BottlePlastic_V2_F",0.05}
+	,{"Land_Canteen_F",0.05}
+	,{"Land_CerealsBox_F",0.06}
+	,{"Land_Antibiotic_F",0.06}
+	,{"Land_Bandage_F",0.01}
+	,{"Land_BloodBag_F",0.01}
+};
+food[] = {
+	{"Land_BottlePlastic_V1_F",0.07}
+	,{"Land_Can_Rusty_F",0.08}
+	,{"Land_Can_V1_F",0.08}
+	,{"Land_Can_V2_F",0.09}
+	,{"Land_Can_V3_F",0.09}
+	,{"Land_TacticalBacon_F",0.05}
+	,{"Land_CanisterFuel_F",0.05}
+	,{"Land_CanisterOil_F",0.05}
+	,{"Land_CanisterPlastic_F",0.05}
+	,{"Land_Battery_F",0.07}
+	,{"Land_BakedBeans_F",0.05}
+	,{"Land_BottlePlastic_V2_F",0.05}
+	,{"Land_Canteen_F",0.05}
+	,{"Land_CerealsBox_F",0.06}
+	,{"Land_Antibiotic_F",0.06}
+	,{"Land_Bandage_F",0.01}
+	,{"Land_BloodBag_F",0.01}
+};
+office[] = {
+	{"Land_BottlePlastic_V1_F",0.07}
+	,{"Land_Can_Rusty_F",0.08}
+	,{"Land_Can_V1_F",0.08}
+	,{"Land_Can_V2_F",0.09}
+	,{"Land_Can_V3_F",0.09}
+	,{"Land_TacticalBacon_F",0.05}
+	,{"Land_CanisterFuel_F",0.05}
+	,{"Land_CanisterOil_F",0.05}
+	,{"Land_CanisterPlastic_F",0.05}
+	,{"Land_Battery_F",0.07}
+	,{"Land_BakedBeans_F",0.05}
+	,{"Land_BottlePlastic_V2_F",0.05}
+	,{"Land_Canteen_F",0.05}
+	,{"Land_CerealsBox_F",0.06}
+	,{"Land_Antibiotic_F",0.06}
+	,{"Land_Bandage_F",0.01}
+	,{"Land_BloodBag_F",0.01}
+};
+generic[] = {
+	{"ItemWatch",0.06}
+	,{"ItemCompass",0.06}
+	,{"ItemGPS",0.06}
+	,{"ItemRadio",0.04}
+	,{"ItemMap",0.04}
+	,{"MineDetector",0.01}
+	,{"Binocular",0.01}
+	,{"Rangefinder",0.01}
+	,{"NVGoggles",0.01}
+	,{"NVGoggles_OPFOR",0.01}
+	,{"NVGoggles_INDEP",0.01}
+	,{"FirstAidKit",0.11}
+	,{"Laserdesignator",0.03}
+	,{"muzzle_snds_H",0.01}
+	,{"muzzle_snds_L",0.04}
+	,{"muzzle_snds_M",0.04}
+	,{"muzzle_snds_B",0.05}
+	,{"muzzle_snds_H_MG",0.05}
+	,{"optic_Arco",0.09}
+	,{"optic_Hamr",0.02}
+	,{"optic_Aco",0.04}
+	,{"optic_ACO_grn",0.07}
+	,{"optic_Aco_smg",0.02}
+	,{"optic_ACO_grn_smg",0.01}
+	,{"optic_Holosight",0.03}
+	,{"optic_Holosight_smg",0.03}
+	,{"optic_SOS",0.03}
+	,{"acc_flashlight",0.03}
+	,{"acc_pointer_IR",0.03}
+	,{"muzzle_snds_acp",0.03}
+	,{"optic_DMS",0.03}
+	,{"optic_Yorris",0.03}
+	,{"optic_MRD",0.03}
+	,{"optic_LRPS",0.03}
+	,{"optic_NVS",0.03}
+	,{"optic_Nightstalker",0.03}
+	,{"optic_tws",0.03}
+	,{"optic_tws_mg",0.03}
+};
+medical[] = {
+	{"Medikit",0.06}
+	,{"Land_Antibiotic_F",0.06}
+	,{"Land_Bandage_F",0.01}
+	,{"Land_BloodBag_F",0.01}
+};
+hospital[] = {
+	{"Land_BottlePlastic_V1_F",0.07}
+	,{"Land_Can_Rusty_F",0.08}
+	,{"Land_Can_V1_F",0.08}
+	,{"Land_Can_V2_F",0.09}
+	,{"Land_Can_V3_F",0.09}
+	,{"Land_TacticalBacon_F",0.05}
+	,{"Medikit",0.06}
+	,{"Land_Antibiotic_F",0.06}
+	,{"Land_Bandage_F",0.01}
+	,{"Land_BloodBag_F",0.01}
+};
+militaryammo[] = {
+};
+farmweapons[] = {
+	{"hgun_ACPC2_F",0.25}
+	,{"SMG_01_F",0.2}
+	,{"SMG_02_F",0.19}
+	,{"arifle_SDAR_F",0.13}
+};
+
+pistols[] = {
+	{"hgun_ACPC2_F",0.25}
+	,{"hgun_P07_F",0.23}
+	,{"hgun_Pistol_heavy_01_F",0.2}
+	,{"hgun_Pistol_heavy_02_F",0.2}
+	,{"hgun_Rook40_F",0.1}
+};
+pistolammo[] = {
+	{"9Rnd_45ACP_Mag",0.25}
+	,{"16Rnd_9x21_Mag",0.23}
+	,{"30Rnd_9x21_Mag",0.2}
+	,{"hgun_Pistol_heavy_01_F",0.2}
+	,{"11Rnd_45ACP_Mag",0.1}
+	,{"6Rnd_45ACP_Cylinder",0.25}
+};
+submachinegunammo[] = {
+	{"30Rnd_9x21_Mag",0.25}
+	,{"16Rnd_9x21_Mag",0.2}
+	,{"30Rnd_45ACP_Mag_SMG_01",0.2}
+	,{"30Rnd_45ACP_Mag_SMG_01_tracer_green",0.25}
+};
+assaultrifleammo[] = {
+	{"20Rnd_556x45_UW_mag",0.25}
+	,{"30Rnd_556x45_Stanag",0.2}
+	,{"30Rnd_556x45_Stanag_Tracer_Red",0.2}
+	,{"30Rnd_556x45_Stanag_Tracer_Green",0.11}
+	,{"30Rnd_556x45_StanagSD",0.12}
+	,{"30Rnd_556x45_Stanag_Tracer_Yellow",0.07}
+
+	,{"1Rnd_HE_Grenade_shell",0.25}
+	,{"UGL_FlareWhite_F",0.2}
+	,{"UGL_FlareGreen_F",0.2}
+	,{"UGL_FlareRed_F",0.11}
+	,{"UGL_FlareYellow_F",0.12}
+	,{"UGL_FlareCIR_F",0.07}
+	,{"1Rnd_Smoke_Grenade_shell",0.25}
+	,{"1Rnd_SmokeRed_Grenade_shell",0.2}
+	,{"1Rnd_SmokeGreen_Grenade_shell",0.2}
+	,{"1Rnd_SmokeYellow_Grenade_shell",0.11}
+	,{"1Rnd_SmokePurple_Grenade_shell",0.12}
+	,{"1Rnd_SmokeBlue_Grenade_shell",0.07}
+	,{"1Rnd_SmokeOrange_Grenade_shell",0.25}
+};
+sniperriflesammo[] = {
+	{"30Rnd_65x39_caseless_mag",0.18}
+	,{"30Rnd_65x39_caseless_mag_Tracer",0.08}
+	,{"10Rnd_762x51_Mag",0.07}
+};
+machinegunammo[] = {
+	{"100Rnd_65x39_caseless_mag_Tracer",0.2}
+	,{"100Rnd_65x39_caseless_mag",0.2}
+	,{"30Rnd_65x39_caseless_mag",0.15}
+	,{"30Rnd_65x39_caseless_mag_Tracer",0.15}
+	,{"200Rnd_65x39_cased_Box",0.15}
+	,{"200Rnd_65x39_cased_Box_Tracer",0.15}
+	,{"150Rnd_762x51_Box",0.15}
+	,{"150Rnd_762x51_Box_Tracer",0.15}
+};

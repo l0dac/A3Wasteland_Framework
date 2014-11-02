@@ -1,0 +1,1 @@
+[] execVM  "waste_server\init\init_server.sqf";

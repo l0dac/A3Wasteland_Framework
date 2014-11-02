@@ -1,0 +1,68 @@
+author = "";
+onLoadName = "";
+onLoadMission = "";
+joinUnassigned = 1;
+allowFunctionsLog = 0;
+respawn = "BASE";
+respawndelay = 5;
+respawnDialog = 0;
+disabledAI = 1;
+disableChannels[]={0,2};
+enableDebugConsole = 2;
+
+class Header
+{
+	gameType = Sandbox;
+	minPlayers = 1;
+	maxPlayers = 145;
+};
+
+wreckManagerMode = 1;
+wreckLimit = 10;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 300;
+
+corpseManagerMode = 1;
+corpseLimit = 50;
+corpseRemovalMinTime = 300;
+corpseRemovalMaxTime = 1800;
+
+forceRotorLibSimulation = 1;
+
+allowFunctionsRecompile = 1;
+
+
+#include "functions\functions.h"
+
+#include "configs\stores.h"
+
+#include "dialog\defines.h"
+#include "dialog\common.hpp"
+
+#include "dialog\atm\defines.h"
+#include "dialog\atm\atm.hpp"
+
+#include "dialog\group\defines.h"
+#include "dialog\group\group.hpp"
+
+#include "dialog\settings\defines.h"
+#include "dialog\settings\gui.hpp"
+
+#include "dialog\spawn\defines.h"
+#include "dialog\spawn\gui.hpp"
+
+#include "dialog\stores\defines.h"
+#include "dialog\stores\general.hpp"
+#include "dialog\stores\weapons.hpp"
+#include "dialog\stores\vehicles.hpp"
+
+
+
+class RscTitles
+{
+	#include "dialog\hud\rscTitles.h"
+	#include "dialog\hud\welcome\defines.h"
+	#include "dialog\hud\welcome\gui.hpp"
+};
+
+#include "R3F_LOG\desc_include.h"

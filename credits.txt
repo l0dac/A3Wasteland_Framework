@@ -1,0 +1,14 @@
+Just a random text file, 
+Just to keep track of differnt code we are using
+So we can give proper credit for work etc when done...
+
+AgentRev -- @ https://github.com/A3Wasteland/ArmA3_Wasteland.Altis
+
+Team R3F -- http://www.armaholic.com/page.php?id=26159
+
+Iceman77 -- http://forums.bistudio.com/showthread.php?168558-Status-Hud
+
+TAWTonic -- async code & spyglass
+
+kirby --- Base Classes etc 
+			

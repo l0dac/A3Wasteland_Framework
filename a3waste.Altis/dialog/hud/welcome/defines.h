@@ -1,0 +1,1 @@
+#define waste_welcomeText 1100
