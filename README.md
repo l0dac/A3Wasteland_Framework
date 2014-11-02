@@ -2,6 +2,11 @@
 
 ### This is just a unoffical rewrite of A3Wasteland....  
 
+#### Can i put this on Server to Play  
+No, mission is incomplete and is really unplayable in current state !!
+There is plenty to be done, if you can code and like to help out.
+Check out issues tickets....  
+
 #### Planned Changes / Differences  
 
 Server / Client BPO by default  
