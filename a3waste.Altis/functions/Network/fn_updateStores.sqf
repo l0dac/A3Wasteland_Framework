@@ -9,8 +9,6 @@
 		0: ClientID
 */
 
-private ["_clientID"];
-
 _npcArrays = _this select 0;
 
 if (!(isNil "store_npcs")) then

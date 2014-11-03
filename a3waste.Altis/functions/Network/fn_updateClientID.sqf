@@ -15,4 +15,3 @@ private ["_clientID"];
 _clientID = _this select 0;
 
 [_clientID] call client_fnc_addEventHandlers;
-0 cutText ["","BLACK IN"];

@@ -83,7 +83,7 @@ _getFriendlyNames =
 
 disableSerialization;
 
-9999 cutText ["", "BLACK"];
+cutText ["", "BLACK"];
 sleep 0.1;
 
 createDialog "spawnSelection";
@@ -195,5 +195,5 @@ while {dialog} do
 	sleep 1;
 };
 
-9999 cutText ["", "BLACK IN"];
+cutText ["", "BLACK IN"];
 _display displayRemoveEventHandler ["KeyDown", _handleID];

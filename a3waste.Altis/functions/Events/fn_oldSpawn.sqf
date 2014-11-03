@@ -27,7 +27,7 @@ player setPosWorld _pos;
 player setvariable ["SAVE_ALLOWED", true, true];
 player setvariable ["enableDamageEH", true, true];
 
-9999 cutText ["", "BLACK IN"];
+cutText ["", "BLACK IN"];
 
 if (isNil "run_welcomeMessage") then
 {

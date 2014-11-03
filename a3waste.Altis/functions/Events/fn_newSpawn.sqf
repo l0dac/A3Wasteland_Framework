@@ -20,7 +20,7 @@ _this spawn {
 	_loadout = _this select 0;
 	_heli = (_this select 1) call BIS_fnc_selectRandom;
 
-	9999 cutText [localize "STR_Loading", "BLACK"];
+	cutText [localize "STR_Loading", "BLACK"];
 	[_loadout] call client_fnc_playerSetup;
 
 	[] call spawn_fnc_createDialog;
@@ -85,7 +85,7 @@ _this spawn {
 	player setvariable ["SAVE_ALLOWED", true, true];
 	player setvariable ["enableDamageEH", true, true];
 
-	9999 cutText ["", "BLACK IN"];
+	cutText ["", "BLACK IN"];
 	if (isNil "run_welcomeMessage") then
 	{
 		run_welcomeMessage = false;

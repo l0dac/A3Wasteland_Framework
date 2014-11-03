@@ -120,9 +120,6 @@ for "_i" from 1 to _veh_spawnMaxLimit do
 												] call BIS_fnc_findSafePos;
 						if ((count _position) == 2) exitWith
 						{
-
-							//diag_log format ["SPAWNING VEHICLE:%1 LOCATION:%2", _classname, _position];
-
 							_veh = createVehicle [_classname, _position, [], 0, "CAN_COLLIDE"];
 							_veh setpos _position;
 							_veh setdir (random 360);

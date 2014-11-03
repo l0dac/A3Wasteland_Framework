@@ -10,7 +10,6 @@ class CfgFunctions
 		class client
 		{
 			class addEventhandlers{};
-			class atmMenu{};
 			class handleDamage{};
 			class playerDied{}; // TODO ADD Eventhandler for this
 			class playerParachute{};

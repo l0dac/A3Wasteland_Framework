@@ -9,10 +9,8 @@
 */
 
 waitUntil {(position player select 2) <= 75};
-hint "check alive";
 if (alive player) then
 {
-	hint "deploy parachute";
 	_vel = velocity player;
 	_pos = position player;
 	_dir = direction player;
@@ -33,5 +31,4 @@ if (alive player) then
 			deleteVehicle _chute;
 		};
 	};
-		//_player setDamage 0; //heal the unit to 100% in case of injury
 };

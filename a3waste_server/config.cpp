@@ -42,8 +42,6 @@ class CfgFunctions
 			class async_misc{};
 			class strip{};
 			class newPlayer{};
-			class newVehicle{};
-			class newObject{};
 			class deadPlayer{};
 			class updatePlayerAll{};
 		};

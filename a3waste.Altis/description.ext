@@ -39,9 +39,6 @@ allowFunctionsRecompile = 1;
 #include "dialog\defines.h"
 #include "dialog\common.hpp"
 
-#include "dialog\atm\defines.h"
-#include "dialog\atm\atm.hpp"
-
 #include "dialog\group\defines.h"
 #include "dialog\group\group.hpp"
 
