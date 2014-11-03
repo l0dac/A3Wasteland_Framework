@@ -13,7 +13,7 @@
 
 */
 
-waitUntil {(!isNull "R3F_LOG_CFG_CF_creation_cost_factor")};
+waitUntil {(!(isNil "R3F_LOG_CFG_CF_creation_cost_factor"))};
 
 _shopParentCfg = (missionConfigFile >> "CfgShopList");
 

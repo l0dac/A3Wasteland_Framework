@@ -40,12 +40,12 @@
 	};
 
 	_obj setVariable ["db_id", _db_id];
-	_obj setVariable ["objectLocked", true, true]; // force lock
+	//_obj setVariable ["objectLocked", true, true]; // force lock
 
 	if (_allowDamage > 0) then
 	{
 		_obj setDamage _damage;
-		_obj setVariable ["allowDamage", true];
+		//_obj setVariable ["allowDamage", true];
 	}
 	else
 	{
@@ -97,7 +97,7 @@
 
 	if (_unlock) exitWith
 	{
-		_obj setVariable ["objectLocked", false, true];
+		//_obj setVariable ["objectLocked", false, true];
 	};
 
 	if {_class isKindOf "StaticWeapon"} then
