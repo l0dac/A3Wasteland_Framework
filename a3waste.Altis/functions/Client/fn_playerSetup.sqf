@@ -212,3 +212,7 @@ FAR_PlayerSide = side player;
 FAR_isDragging = false;
 
 call FAR_fnc_playerActions;
+
+// Player Icons
+
+[] execVM "scripts\a3wasteland_playerIcons.sqf";
