@@ -71,9 +71,10 @@ _addToPlayer =
 		};
 		if (!_loop) exitWith
 		{
-			// TODO Error Insufficent Room
+			// TODO Spawn Items around Player ????
 		};
 	};
+	_cmoney
 };
 
 
@@ -213,12 +214,14 @@ switch (_itemClassType) do
 	{
 		diag_log "2";
 		// TODO Add code to add gun to slot if empty
-		[_cmoney, _itemClass, _itemClassType, _itemPrice, _quanity] call _addToPlayer;
+		_cmoney = [_cmoney, _itemClass, _itemClassType, _itemPrice, _quanity] call _addToPlayer;
 	};
 
 	default // All other Items
 	{
 		diag_log "3";
-		[_cmoney, _itemClass, _itemClassType, _itemPrice, _quanity] call _addToPlayer;
+		_cmoney = [_cmoney, _itemClass, _itemClassType, _itemPrice, _quanity] call _addToPlayer;
 	};
+
+	player setvariable ["cmoney", _cmoney];
 };
