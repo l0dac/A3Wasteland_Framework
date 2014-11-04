@@ -58,22 +58,28 @@ for "_i" from 0 to (_count - 1) do
 				_type = "CfgWeapons";
 				// Yeah gonna get abit Complicated Below...
 				// 		Why couldn't BIS Just split up Vests / Uniforms etc into own Configs
-				_isWeapon = false;
+
 				_weaponType = getNumber(configFile >> "CfgWeapons" >> _classname >> "type");
 				_weaponTypeInfo = -1;
 				if(isClass (configFile >> "CfgWeapons" >> _classname >> "ItemInfo")) then
 				{
 					_weaponTypeInfo = getNumber(configFile >> "CfgWeapons" >> _classname >> "ItemInfo" >> "Type");
 				};
-				if(_weaponType in [1,2,4,5]) then
+
+				_isWeapon = false;
+				switch (_weaponType) do
 				{
-					_isWeapon = true;
-				}
-				else
-				{
-					if ((_weaponType == 4096) && (_weaponTypeInfo == -1)) then
+					case 1: { _isWeapon = true; };
+					case 2: { _isWeapon = true; };
+					case 4: { _isWeapon = true; };
+					case 5: { _isWeapon = true; };
+
+					case 4096:
 					{
-						_isWeapon = true;
+						if (_weaponTypeInfo == -1) then
+						{
+							_isWeapon = true;
+						};
 					};
 				};
 
@@ -81,18 +87,10 @@ for "_i" from 0 to (_count - 1) do
 				{
 					switch (_weaponTypeInfo) do
 					{
-						case 701:	//addItem   VEST
-						{
-							_type = "Vest";
-						};
-						case 801:	//addItem	Uniform
-						{
-							_type = "Uniform";
-						};
-						default
-						{
-							_type = "WeaponItem";
-						};
+						case 701: { _type = "Vest"; };
+						case 801: { _type = "Uniform"; };
+
+						default { _type = "WeaponItem";	};
 					};
 				};
 
