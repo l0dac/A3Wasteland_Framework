@@ -125,10 +125,9 @@ for "_i" from 0 to (_count - 1) do
 				_itemName pushBack (_x select 4);
 				_itemCfgType pushBack "";
 			};
-
-			_itemPrice pushBack _price;
-			_itemClassname pushBack _classname;
 		};
+		_itemPrice pushBack _price;
+		_itemClassname pushBack _classname;
 
 	} forEach (getArray (_shopParentCfg >> _shopCfgName));
 
