@@ -34,6 +34,9 @@ player addEventHandler ["HandleDamage", { _this call clientEvents_fn_handleDamag
 (format["boughtItem_%1", _clientID]) addPublicVariableEventHandler {(_this select 1) spawn clientEvents_fnc_boughtItem;};
 (format["updateCMoney_%1", _clientID]) addPublicVariableEventHandler {(_this select 1) call clientEvents_fnc_updateCMoney;};
 
+(format["insufficentMoney_%1", _clientID]) addPublicVariableEventHandler {(_this select 1) call clientEvents_fnc_insufficentMoney;};
+(format["storeWait_%1", _clientID]) addPublicVariableEventHandler {(_this select 1) call clientEvents_fnc_storeWait;};
+
 
 
 waitUntil {sleep 0.01; (!(isNil "all_locations"))}; // Wait for Client to be Ready with Town List for spawns, just incase

@@ -36,6 +36,7 @@ allowFunctionsRecompile = 1;
 
 #include "configs\stores.h"
 
+
 #include "dialog\defines.h"
 #include "dialog\common.hpp"
 
@@ -54,12 +55,17 @@ allowFunctionsRecompile = 1;
 #include "dialog\stores\vehicles.hpp"
 
 
-
 class RscTitles
 {
 	#include "dialog\hud\rscTitles.h"
 	#include "dialog\hud\welcome\defines.h"
 	#include "dialog\hud\welcome\gui.hpp"
+};
+
+class CfgHints
+{
+	#include "configs\hints\money.h"
+	#include "configs\hints\store.h"
 };
 
 #include "R3F_LOG\desc_include.h"

@@ -9,6 +9,7 @@
 
 */
 
+
 diag_log format ["DEBUG fn_buyItem: _this:%1", _this];
 
 _player = _this select 0;
@@ -24,15 +25,17 @@ _itemCfgTypeArray = missionNamespace getvariable [format ["StoreCfg_%1_itemCfgTy
 
 _index = (_itemClassArray find _itemClass);
 if (_index == -1 ) exitWith {
-	//TODO WARNING TO CLIENT
-}; // Quit if Class Type not found, shouldnt happen. Dont trust clients
+	diag_log format ["ERROR DETECTED: Store Buy Item Invalid Classname from %1  name:%2", _player, (name _player)];
+};
 
 _itemPrice = _itemPriceArray select _index;
 
 _moneyLock = [_clientID, "MoneyLock"] call players_fnc_dataGet;
 
 if (_moneyLock) exitWith {
-	//TODO WARNING TO CLIENT
+	_varName = format["storeWait_%1", _clientID];
+	missionNamespace setVariable [_varName, ""]; // TODO add purchase info that failed ?
+	publicVariable _varName;
 }; // Player will notice when nothing is both, to prevent spam purchases etc...
 
 [_clientID, "MoneyLock", true] call players_fnc_dataSet;
@@ -40,9 +43,12 @@ _cmoney = ([_clientID, "cmoney"] call players_fnc_dataGet);
 
 _totalCost = (_itemPrice * _quanity);
 if (_cmoney < _totalCost) exitWith {
-	// TODO add warning to client insufficent funds
+
+	_varName = format["insufficentMoney_%1", _clientID];
+	missionNamespace setVariable [_varName, _cmoney];
+	publicVariable _varName;
+
 	[_clientID, "MoneyLock", false] call players_fnc_dataSet;
-	diag_log "not enough money";
 };
 _cmoney = _cmoney - _totalCost;
 
